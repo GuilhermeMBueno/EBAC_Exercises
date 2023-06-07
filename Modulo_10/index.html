@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form With Mark</title>
+    <title>Form With Mark Jquery</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
+    <header>
+        <h1>Form with plugins Jquery</h1>
+    </header>
     <div class="box">
-        <h1>Form With Plugins Jquery</h1>
+        <section>
             <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-            
-                <label for="email">Email:</label>
-                <input type="email" id="email">
-            
-                <label for="telefone">Telefone:</label>
-                <input type="cel" id="celular">
-
+                <fieldset>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div>        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="cel" id="celular">
+                    </div>
+                    <div>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf">
+                    </div>
+                    <div>
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep">
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn-enviar">ENVIAR</button>
             </form>
-        
+        </section>
     </div>
-
+    <script src="./src/main.js"></script>
+    <script src="./src/jquery.mask.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </body>
+
 </html>
