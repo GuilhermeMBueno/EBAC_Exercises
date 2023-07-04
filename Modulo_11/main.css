@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px){
+    header {
+        text-align: center;
+        background-color: blueviolet;
+        color: #fff;
+        height: 100px;
+        align-items: center;
+        margin-bottom: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    header h1{
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    header a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    #aboutUs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #aboutUs img{
+        max-width: 350px;
+        border-radius: 15px;
+    }
+
+    #aboutUs h2 {
+        color: blueviolet;
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    #aboutUs p{
+        text-align: center;
+        
+    }
+
+    .gridProduts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gridProduts > div{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+
+    #produtos h2{
+        color: blueviolet;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #produtos img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #produtos > div {
+        text-align: center;
+    }
+
+    .addCar{
+        margin-top: 10px;
+        align-items: center;
+        height: 50px;
+        width: 180px;
+        border: none;
+        padding: 3px;
+        border-radius: 13px;
+        background-color: rgb(216, 21, 216);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .addCar:hover{
+        margin-top: 10px;
+        align-items: center;
+        height: 50px;
+        width: 180px;
+        border: none;
+        padding: 3px;
+        border-radius: 13px;
+        background-color: rgb(160, 17, 160);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    header {
+        display: flex;
+        background-color: blueviolet;
+        color: #fff;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        margin-bottom: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    header a:hover {
+        color: #bdbdbd;
+        text-decoration: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    #aboutUs img {
+        margin-left: 3px;
+        width: 340px;
+        border-radius: 15px;
+    }
+    
+    #aboutUs {
+        display: flex;
+    }
+    
+    #aboutUs h2{
+        text-transform: uppercase;
+        color: blueviolet;
+        margin-bottom: 25px;
+        border-bottom: 3px solid blueviolet;
+    }
+    
+    #aboutUs h2, 
+    #aboutUs p {
+        margin-left: 25px;
+    }
+    
+    #produtos{
+        margin-top: 50px;
+    }
+    
+    #produtos h2{
+        text-transform: uppercase;
+        border-bottom: 1px solid blueviolet;
+        color: blueviolet;
+    }
+    
+    #produtos img{
+        width: 190px;
+        height: 190px;
+    }
+    
+    .gridProduts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gridProduts > div{
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .addCar{
+        margin-top: 10px;
+        align-items: center;
+        height: 35px;
+        width: 200px;
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+        background-color: rgb(216, 21, 216);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .addCar:hover{
+        margin-top: 10px;
+        align-items: center;
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+        background-color: rgb(160, 17, 160);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    body {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        display: flex;
+        background-color: blueviolet;
+        color: #fff;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        margin-bottom: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    header a:hover {
+        color: #bdbdbd;
+        text-decoration: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    #aboutUs img {
+        width: 450px;
+        border-radius: 15px;
+    }
+    
+    #aboutUs {
+        display: flex;
+    }
+    
+    #aboutUs h2{
+        text-transform: uppercase;
+        color: blueviolet;
+        margin-bottom: 25px;
+        border-bottom: 3px solid blueviolet;
+    }
+    
+    #aboutUs h2, 
+    #aboutUs p {
+        margin-left: 25px;
+    }
+    
+    #produtos{
+        margin-top: 50px;
+    }
+    
+    #produtos h2{
+        text-transform: uppercase;
+        border-bottom: 1px solid blueviolet;
+        color: blueviolet;
+    }
+    
+    #produtos img{
+        width: 190px;
+        height: 190px;
+    }
+    
+    .gridProduts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gridProduts > div{
+        text-align: center;
+        width: 25%;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .addCar{
+        margin-top: 10px;
+        align-items: center;
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+        background-color: rgb(216, 21, 216);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .addCar:hover{
+        margin-top: 10px;
+        align-items: center;
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+        background-color: rgb(160, 17, 160);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+}
