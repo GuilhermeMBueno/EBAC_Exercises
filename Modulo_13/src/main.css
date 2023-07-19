@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 415px){
+@media screen and (min-width: 415px) and (max-width: 699px){
 
     .displayTablet{
         display: none;
